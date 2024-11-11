@@ -13,7 +13,7 @@ import time
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '1Un_XeJCmrqEauIjkoC_x7M_2S7hqSMVJ_aCQAodMU9c'
+SAMPLE_SPREADSHEET_ID = '1FLPs1bO2exvXxIQzh7-y-g0N5ZuyAUcJ5MXFrJLGYAw'
 
 SPREADSHEET_COLUMN_SN = 'B'
 SPREADSHEET_COLUMN_ICCID = 'N'
@@ -21,10 +21,7 @@ SPREADSHEET_COLUMN_ICCID = 'N'
 PORT = 'COM15'
 BAUDRATE = 115200
 
-
-
 ser = Serial(port= PORT, baudrate= BAUDRATE, timeout= 1)
-
     
 creds = None
 # The file token.json stores the user's access and refresh tokens, and is
